@@ -15,6 +15,11 @@
     "react": "18.2.0",
     "react-native": "0.71.3"
   },
+  "expo": {
+    "autolinking": {
+      "exclude": ["expo-keep-awake"]
+    }
+  },
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
