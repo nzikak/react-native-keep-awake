@@ -22,7 +22,7 @@ export default function App() {
     }
     }
     >
-      <Stack.Screen name="Home-Screen" component={Home}
+      <Stack.Screen name="Home-Screen" component={Home} options={{title: 'Home'}}
       />
       <Stack.Screen name="Video-Screen" component={VideoPlayerScreen} options={{title: 'Video'}}/>
     </Stack.Navigator>
