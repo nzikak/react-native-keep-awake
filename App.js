@@ -1,6 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Home from "./screens/home_screen";
+import HomeScreen from "./screens/home_screen";
 import VideoPlayerScreen from "./screens/video_screen";
 
 
@@ -22,7 +22,7 @@ export default function App() {
     }
     }
     >
-      <Stack.Screen name="Home-Screen" component={Home} options={{title: 'Home'}}
+      <Stack.Screen name="Home-Screen" component={HomeScreen} options={{title: 'Home'}}
       />
       <Stack.Screen name="Video-Screen" component={VideoPlayerScreen} options={{title: 'Video'}}/>
     </Stack.Navigator>
